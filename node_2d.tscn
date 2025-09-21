@@ -1,9 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://027of1rnhwrh"]
-
-[ext_resource type="Texture2D" uid="uid://cwljhdhamjcrk" path="res://icon.svg" id="1_wtcfe"]
+[gd_scene load_steps=2 format=3 uid="uid://027of1rnhwrh"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0e48y"]
-load_path = "res://.godot/imported/Screenshot 2025-09-21 181358.png-4aaca0e7f61f419275f36318b4c025b2.ctex"
 
 [node name="Node2D" type="Node2D"]
 
@@ -11,12 +8,9 @@ load_path = "res://.godot/imported/Screenshot 2025-09-21 181358.png-4aaca0e7f61f
 transform = Transform3D(0.983163, -0.182733, 0, 0.182733, 0.983163, 0, 0, 0, 1, 0, 0, 0)
 
 [node name="Icon" type="Sprite2D" parent="."]
-visible = false
 position = Vector2(350, 288)
-texture = ExtResource("1_wtcfe")
 
 [node name="Screenshot2025-09-21181358" type="Sprite2D" parent="."]
-visible = false
 position = Vector2(-387, 592)
 scale = Vector2(0.185328, 0.135542)
 texture = SubResource("CompressedTexture2D_0e48y")
@@ -27,4 +21,3 @@ position = Vector2(-2363.71, 7333.51)
 [node name="Icon2" type="Sprite2D" parent="."]
 position = Vector2(327, 292)
 scale = Vector2(0.578125, 1)
-texture = ExtResource("1_wtcfe")
